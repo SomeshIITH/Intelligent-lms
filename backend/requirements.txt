@@ -1,0 +1,25 @@
+# Core Web and API Subsystem
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.7.4
+pydantic-settings>=2.2.1
+python-multipart>=0.0.9
+
+# Logging Infrastructure
+loguru>=0.7.2
+
+# LangChain Ecosystem and AI Orchestration
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-google-genai>=2.0.0
+langchain-chroma>=0.1.4
+langchain-huggingface>=0.1.0
+
+# Vector Calculations and Transformer Ingestion Model Engines
+sentence-transformers>=2.5.1
+torch>=2.2.1
+chromadb>=0.4.24
+
+# Structural File Document Extraction Engine
+pypdf>=4.1.0
